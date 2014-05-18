@@ -1,0 +1,77 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+#googlesearch {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+}
+
+#logo {
+	margin-left: 30%;
+	margin-bottom: 10px;
+}
+
+#searchbox {
+	height: 20px;
+	width: 100%;
+	border: 1px solid #D1D1D1;
+}
+
+#searchbox:hover {
+	border-color: #B5B5B5;
+}
+
+#searchbox:focus {
+	border-color: #639AFF;
+}
+
+#searchbutton {
+	margin-left: 33%;
+	margin-top: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	margin-top: 20px;
+	margin-left: 78%;
+	padding: 0;
+}
+
+li {
+	float: left;
+}
+
+a {
+	margin-top: 8px;
+	display: block;
+	width: 50px;
+	text-decoration: none;
+	color: #2E2E2E;
+	font-size: 13px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#signin {
+	width: 60px;
+	margin-left: 10px;
+	background: none repeat scroll 0 0 #4285F4;
+	border: 1px solid #C6C6C6;
+	border-radius: 2px;
+	color: white;
+	font-size: small;
+	font-weight: bold;
+	outline: medium none;
+	padding: 5px 33px;
+}
